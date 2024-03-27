@@ -27,3 +27,11 @@ print("O seu telefone é " + telefone)
 # variáveis que NÃO SÃO strings (str) precisam ser convertidas na hora da impressão
 # para converter qualquer variável para string basta fazer str(nomeDaVariavel)
 print("O seu ano de nascimento é " + str(ano))
+
+nome = input("Digite o seu nome: ")
+cpf = input("Digite seu CPF: ")
+telefone = input("Digite seu telefone: ")
+anoAtual = 2024
+anoNasc = int(input("Digite o ano em que você nasceu: "))
+idade = anoAtual - anoNasc
+print(f'Nome: {nome} CPF: {cpf} Telefone: {telefone} Idade: {idade}')

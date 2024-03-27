@@ -28,3 +28,11 @@ print("O seu IMC é: " + str(imc))
 # basta adicionar :.2f após o nome da variável dentro das chaves
 # perceba que não é preciso converter a variável para string neste caso
 print(f"O seu IMC é {imc:.2f}")
+
+
+print("Programa para cálculo de IMC")
+nome = input("Informe o seu nome:")
+peso = float(input("Digite seu peso em (kg): "))
+altura = float(input("Digite sua altura (m): "))
+imc = (peso/(altura * altura))
+print(f'{nome} o  seu imc é: {imc:.2f}')
